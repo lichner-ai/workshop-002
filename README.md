@@ -23,16 +23,35 @@ Unlike traditional training, this workshop emphasizes **learning by doing**. You
 
 ## Workshop Agenda
 
-### Module 1: AI Architecture Fundamentals (30 min)
-**Format**: Theory + Live Demo
+### Module 0: Setup & Validation (30 min)
+**Format**: Guided Installation & Configuration
 
-Learn the foundational concepts before writing code:
-- **AI Systems**: Chat vs Agents vs Agentic systems
+**What We'll Do Together**:
+- Install/verify Warp Terminal with AI enabled
+- Install/verify Node.js v18+, Git, VS Code (or alternative editor)
+- Clone workshop repository and install dependencies
+- Configure Warp to connect to workshop MCP server
+- Validate everything works before we start coding
+
+**Your Preparation** (Optional - we'll help if needed):
+- Attempt to install Warp from https://warp.dev
+- Attempt to install Node.js v18+ from https://nodejs.org
+
+**Don't worry if you hit issues** - we'll resolve them together during Module 0.
+
+**Outcome**: Everyone has a working development environment ready to code
+
+---
+
+### Module 1: AI Architecture Fundamentals (15 min)
+**Format**: Condensed Theory + Quick Demo
+
+**Core Concepts**:
+- **AI Systems Evolution**: Chat → Agents → Agentic systems
 - **MCP Architecture**: Client → Server → Tools → Context
-- **Live Demo**: Warp connecting to multiple MCP servers (filesystem, git, mining equipment)
-- **Context Management**: How AI understands your project
+- **Quick Demo**: Warp connecting to MCP servers in action
 
-**Outcome**: Mental model for AI-assisted development
+**Outcome**: Essential mental model for AI-assisted development
 
 ---
 
@@ -66,37 +85,29 @@ Learn the foundational concepts before writing code:
 
 ---
 
-### Module 3: Understanding & Using MCP Servers (60 min)
-**Format**: Configuration + Exploration + Integration
+### Module 3: Understanding & Using MCP Servers (30 min)
+**Format**: Rapid Configuration + Exploration
 
 **What You'll Do**:
 
-**Phase 1: Connect to Remote MCP Server (15 min)**
+**Connect to Remote MCP Server (10 min)**
 - Configure Warp to connect to workshop MCP server
 - Test connection and available tools
-- Understand SSE transport architecture
+- Understand SSE transport basics
 
-**Phase 2: Explore MCP Tools (20 min)**
-- Query mining equipment data via MCP
-- Use natural language to invoke specific tools
-- Understand tool parameters and responses
-
-**Phase 3: MCP Architecture (15 min)**
-- Code walkthrough of the MCP server
-- How tool schemas work
-- How AI selects appropriate tools
-
-**Phase 4: Development Integration (10 min)**
+**Explore & Use MCP Tools (20 min)**
+- Query mining equipment data via MCP using natural language
+- Understand how AI selects appropriate tools
+- Quick code walkthrough of MCP server architecture
 - Use MCP server during feature development
-- See AI query MCP to inform code generation
-- Agentic workflow demonstration
 
 **MCP Server Details**:
 - **URL**: `https://workshop-mcp.azurecontainerapps.io/sse`
+- **Health Check**: `https://workshop-mcp.azurecontainerapps.io/health`
 - **Tools**: Equipment retrieval, maintenance search, service calculations, site summaries
 - **Data**: Realistic Rio Tinto equipment dataset
 
-**Outcome**: Understand how to use and integrate remote MCP servers
+**Outcome**: Practical understanding of remote MCP server integration
 
 ---
 
@@ -117,7 +128,7 @@ Learn the foundational concepts before writing code:
 
 ---
 
-### Wrap-Up (10 min)
+### Wrap-Up & Next Steps (30 min)
 
 **Key Takeaways**:
 - AI-assisted development workflows
@@ -132,34 +143,45 @@ Learn the foundational concepts before writing code:
 - Synthetic mining equipment data
 - 30-day support access
 
+**Q&A and Buffer Time**:
+- Open questions about any module
+- Troubleshoot any lingering issues
+- Discuss Rio Tinto-specific applications
+- Extra time if workshop runs behind schedule
+
 ---
 
-## Pre-Workshop Requirements (MANDATORY)
+## Pre-Workshop Setup (Recommended, Not Required)
 
-**⚠️ Setup must be completed 48 hours before workshop**
+**We'll handle setup together in Module 0, but if you want to get a head start:**
 
-### Required Software:
-- Warp Terminal (latest version from warp.dev)
-- Warp AI enabled (subscription or trial)
-- Git (v2.x+)
-- Node.js (v18+) + npm
-- TypeScript (`npm install -g typescript`)
-- Code editor (VS Code, Cursor, etc.)
+### Recommended Pre-Installation (Optional):
+- **Warp Terminal** (latest version from warp.dev)
+  - Enable Warp AI (subscription or free trial)
+- **Node.js** (v18+) + npm from nodejs.org
+- **Git** (v2.x+)
+- **Code editor** (VS Code recommended, but any editor works)
 
-### Validation Process:
+### If You Encounter Issues:
+**Don't worry!** We have a 30-minute setup module at the start where we'll help everyone get configured. Just bring your laptop.
 
-**Due 48 hours before workshop**:
+### No Validation Required:
+Unlike typical workshops, we don't require pre-workshop validation. We'll do it together live with instructor support.
 
-1. Clone validation repo: `git clone [validation-repo-url]`
-2. Install dependencies: `npm install`
-3. Run validation: `npm run validate`
-4. Screenshot successful output showing:
-   - Warp terminal running validation
-   - Warp AI responding to test query
-   - MCP server connection successful
-5. Email screenshots to: [workshop-email]@interfuze.com.au
+---
 
-**Incomplete setup = No workshop seat**
+## What to Bring
+
+**Required**:
+- Laptop (macOS, Windows, or Linux)
+- Power adapter
+- Willingness to learn and experiment
+
+**NOT Required**:
+- Pre-configured environment
+- Prior AI tooling experience
+- Specific operating system
+- Warp AI subscription (free trial available)
 
 ---
 
@@ -205,18 +227,18 @@ Learn the foundational concepts before writing code:
 
 ## Logistics
 
-**When**: [Date/Time - Recommend 9:00 AM - 1:00 PM]
+**Duration**: 4 hours
 **Where**: [Location]
-**Bring**: Laptop with validated setup
+**Bring**: Laptop with power adapter
 
 **Schedule**:
-- 9:00-9:30: Module 1
-- 9:30-9:40: Break
-- 9:40-11:10: Module 2
-- 11:10-11:25: Break
-- 11:25-12:25: Module 3
-- 12:25-12:30: Break
-- 12:30-13:00: Module 4 + Wrap-up
+- **Start - Start +30 min**: Module 0 - Setup & Validation
+- **Start +30 min - Start +45 min**: Module 1 - AI Architecture
+- **Start +45 min - Start +2:15**: Module 2 - Build the Application
+- **Start +2:15 - Start +2:30**: Break (15 min)
+- **Start +2:30 - Start +3:00**: Module 3 - MCP Servers
+- **Start +3:00 - Start +3:30**: Module 4 - Advanced Workflows
+- **Start +3:30 - Start +4:00**: Wrap-up, Q&A, Next Steps
 
 ---
 
