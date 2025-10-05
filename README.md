@@ -1,15 +1,15 @@
 # AI-Powered Development Workshop
 ## Building Mining Operations Applications with Warp Terminal
 
-**Duration**: 4 hours
-**Participants**: Developers & Technical Architects (Max 8)
-**Presented by**: Interfuze
+* **Duration**: 4 hours
+* **Participants**: Developers & Technical Architects (Max 8)
+* **Presented by**: Interfuze
 
 ---
 
 ## Workshop Overview
 
-Learn to build intelligent applications using AI-assisted development tools. You'll build a Mining Equipment Maintenance Tracker with realistic Rio Tinto data while mastering Warp terminal's AI capabilities and the Model Context Protocol (MCP).
+Learn to build intelligent applications using AI-assisted development tools. You'll build a Mining Equipment Maintenance Tracker with realistic data while mastering Warp terminal's AI capabilities and the Model Context Protocol (MCP).
 
 Unlike traditional training, this workshop emphasizes **learning by doing**. You'll receive business requirements and figure out the implementation using AI assistance—learning to prompt effectively, debug intelligently, and solve real problems.
 
@@ -23,8 +23,9 @@ Unlike traditional training, this workshop emphasizes **learning by doing**. You
 
 ## Workshop Agenda
 
-### Module 0: Setup & Validation (30 min)
+### Module 0: Setup & Validation
 **Format**: Guided Installation & Configuration
+**Duration**: ~30min
 
 **What We'll Do Together**:
 - Install/verify Warp Terminal with AI enabled
@@ -43,8 +44,9 @@ Unlike traditional training, this workshop emphasizes **learning by doing**. You
 
 ---
 
-### Module 1: AI Architecture Fundamentals (15 min)
+### Module 1: AI Architecture Fundamentals
 **Format**: Condensed Theory + Quick Demo
+**Duration**: ~15min
 
 **Core Concepts**:
 - **AI Systems Evolution**: Chat → Agents → Agentic systems
@@ -55,8 +57,9 @@ Unlike traditional training, this workshop emphasizes **learning by doing**. You
 
 ---
 
-### Module 2: Build the Application (90 min)
+### Module 2: Build the Application
 **Format**: Hands-On Challenge
+**Duration**: ~1.5hrs
 
 **The Challenge**: Build a Mining Equipment Maintenance Tracker
 
@@ -85,8 +88,9 @@ Unlike traditional training, this workshop emphasizes **learning by doing**. You
 
 ---
 
-### Module 3: Understanding & Using MCP Servers (30 min)
+### Module 3: Understanding & Using MCP Servers
 **Format**: Rapid Configuration + Exploration
+**Duration**: ~30min
 
 **What You'll Do**:
 
@@ -105,20 +109,20 @@ Unlike traditional training, this workshop emphasizes **learning by doing**. You
 - **URL**: `https://workshop-mcp.azurecontainerapps.io/sse`
 - **Health Check**: `https://workshop-mcp.azurecontainerapps.io/health`
 - **Tools**: Equipment retrieval, maintenance search, service calculations, site summaries
-- **Data**: Realistic Rio Tinto equipment dataset
+- **Data**: Realistic equipment dataset
 
 **Outcome**: Practical understanding of remote MCP server integration
 
 ---
 
-### Module 4: Integration & Advanced Workflows (30 min)
+### Module 4: Integration & Advanced Workflows
 **Format**: Demo + Discussion
+**Duration**: ~30min
 
 **Topics**:
 - **Warp Workflows**: Automate common dev tasks
 - **Agentic Patterns**: Multi-step AI reasoning with MCP
 - **Real-World MCP**: When to build vs use existing servers
-- **Rio Tinto Application**: Fork MCP server for internal use
 
 **Monday Morning Plan**:
 - Week 1: Use Warp AI daily
@@ -146,7 +150,6 @@ Unlike traditional training, this workshop emphasizes **learning by doing**. You
 **Q&A and Buffer Time**:
 - Open questions about any module
 - Troubleshoot any lingering issues
-- Discuss Rio Tinto-specific applications
 - Extra time if workshop runs behind schedule
 
 ---
@@ -199,7 +202,7 @@ Unlike typical workshops, we don't require pre-workshop validation. We'll do it 
 - Working Mining Equipment Tracker app
 - Production MCP server source code
 - Warp workflows and standards
-- Rio Tinto equipment dataset
+- Equipment dataset
 - Workshop recording + documentation
 
 ---
